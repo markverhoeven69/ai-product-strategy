@@ -1,19 +1,32 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+
+A web app prototype for an AI Companion product called AI Lifestyle Companion. The prototype demonstrates how AI can transform health goals, lifestyle habits, and wellbeing data into personalized daily guidance, actionable recommendations, and long-term behavior change.
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+
+https://ai-lifestyle-companion.lovable.app
 
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+
+Copilot
+
+The AI acts as a personal lifestyle companion that continuously guides users in making healthier decisions, improving wellbeing, and achieving lifestyle goals through personalized recommendations and coaching.
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+
+Busy professionals want an AI-powered lifestyle companion that helps them improve their physical, mental, and emotional wellbeing through personalized daily guidance, because existing health apps provide data but not actionable support.
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+
+We will stop pursuing this concept if user testing shows that:
+- Users do not perceive sufficient value beyond existing health and fitness apps.
+- Users are unwilling to share lifestyle and wellbeing data with an AI companion.
+- Personalized AI recommendations do not lead to measurable engagement or habit improvement.
+- Users prefer generic AI assistants (e.g., ChatGPT, Apple Intelligence) over a dedicated lifestyle companion.
+- Less than 30% of test users indicate they would use the product weekly or pay for the service.
