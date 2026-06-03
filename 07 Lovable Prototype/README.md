@@ -1,1 +1,0 @@
-# 07 Lovable Prototype
