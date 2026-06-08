@@ -10,10 +10,13 @@
 | **Eval** | Human review and user feedback provide quality validation. Automated evaluation benchmarks are planned but not yet implemented. | H | Run predefined regression tests and compare output quality across alternative providers before full migration. |
 
 ## Portability Score
-<!-- Partial --> The product is intentionally designed to keep behavioural data, coaching outcomes, user profiles and healthcare workflows outside the foundation model. However, the current prototype relies primarily on a single AI provider and lacks automated model-routing and evaluation capabilities.
+** Partial**
+The product is intentionally designed to keep behavioural data, coaching outcomes, user profiles and healthcare workflows outside the foundation model. However, the current prototype relies primarily on a single AI provider and lacks automated model-routing and evaluation capabilities.
 
 ## If OpenAI doubles pricing tomorrow:
-<!-- Within 48 hours, The AI Lifestyle Companion would: -->
+
+Within 48 hours, The AI Lifestyle Companion would:
+
 1. Freeze non-essential AI features.
 2. Activate a secondary provider (Anthropic, Gemini or Azure OpenAI).
 3. Redirect conversational workloads through a provider abstraction layer.
