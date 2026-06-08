@@ -41,8 +41,11 @@ Users currently generate value primarily for themselves. There are no community 
 As anonymised outcome data grows, aggregate insights may improve intervention effectiveness across the user base. However, this remains an indirect data effect rather than a true network effect.
 
 **Total Flywheel Score: 10/20**
-**Weakest Loop: Network (1/5) **
+
+**Weakest Loop: Network (1/5)**
+
 **Fix for weakest loop:**
+
 Build a coach-and-provider ecosystem where aggregated outcomes improve intervention quality across users, coaches, and healthcare partners. Create feedback loops between AI recommendations, lifestyle coaches, and real-world health outcomes.
 
 ---
@@ -50,12 +53,16 @@ Build a coach-and-provider ecosystem where aggregated outcomes improve intervent
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
+
 **Attacker:**
 OpenAI
+
 **Vector:**
 Launch a native AI Lifestyle Coach inside ChatGPT, integrated with health and wearable data.
+
 **Time-to-threat:**
 3-6 months
+
 **% of value at risk:**
 70%
 
