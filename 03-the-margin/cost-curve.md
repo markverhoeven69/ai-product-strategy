@@ -20,6 +20,8 @@ GPT-4.1 Mini / Claude Haiku equivalent
 GPT-4o / Claude Sonnet equivalent
 
 **Routing rule:**
+→ Small model
+
 * Habit reminders
 * Goal tracking
 * FAQ questions
@@ -31,15 +33,11 @@ GPT-4o / Claude Sonnet equivalent
 * Multi-step coaching
 * Emotional support conversations
 * Complex health reasoning
-  
-→ Frontier model
 
 **Expected cascade ratio:**
 * 80% Small model
 * 20% Frontier model
 Most traffic should hit the cheap model while only complex requests go to the expensive layer.
-
-
 
 ## Bundling Strategy (Leaders, Fillers & Killers)
 
