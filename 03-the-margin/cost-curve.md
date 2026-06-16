@@ -9,7 +9,7 @@
 | Infrastructure | €0.50 | Hosting, API gateway, monitoring |
 | Data/storage | €0.20 | User profiles, history, embeddings |
 | Human-in-the-loop | €0.20 | Occasional review of edge cases and safety checks |
-| **Total COGS** | €1.35 | Blended monthly AI cost |
+| **Total COGS** | €1.35 | Blended monthly operating cost per active user |
 
 **Assumption:** 150 AI interactions per active user per month, with 80% routed to a low-cost model and 20% routed to a frontier model.
 
@@ -22,7 +22,7 @@
 | Avg AI Requests / User / Month | 150    | 3-5 interacties per dag              |
 | Blended Cost per Request       | $0.003 | 80% mini-model, 20% frontier-model   |
 | Revenue per User / Month       | $19.99 | Premium AI coaching subscription     |
-| Non-AI COGS / User / Month     | $2.00  | Hosting, support, analytics, storage |
+| Non-AI COGS / User / Month     | $1.35  | Hosting, support, analytics, storage |
 
 ---
 
@@ -192,6 +192,24 @@ The core coaching experience remains subscription-based, while high-cost AI work
 
 **Goal:** Move toward outcome-oriented pricing while maintaining predictable subscription revenue and sustainable AI economics.
 
+### Pricing Strategy
+- Strategy posture: Maximize
+- Pricing model: Hybrid (base + usage)
+- Unit of work metered: Lifestyle coaching sessions completed
+- Base fee ($/month): 12.99
+- Price per unit: $0.1
+- Estimated units/user/month: 70
+- Implied revenue/user/month: $19.99
+
+### Decision Note
+This pricing structure aligns with how users perceive value from an AI lifestyle coach. Customers are not paying for prompts or tokens; they are paying for personalized coaching interactions that help them achieve meaningful lifestyle improvements.
+
+A hybrid model combines predictable subscription revenue with the flexibility to monetize higher-cost AI workflows separately. The core coaching experience remains accessible through the base subscription, while advanced capabilities such as autonomous coaching, wearable integrations, and deep analysis workflows are positioned as premium offerings.
+
+This approach supports healthy unit economics by aligning AI consumption with customer value, protecting margins through model cascading, and avoiding the over-bundling of expensive agentic features into the base plan.
+
+The pricing strategy follows a maximize posture, focusing on capturing increasing value as users progress from basic lifestyle guidance to highly personalized AI-assisted coaching and behavior-change support.
+
 ---
 
 ## Stress Tests
@@ -219,7 +237,7 @@ Static habit tracking and lifestyle content.
 **After (AI-enabled):**
 * Revenue/User/Month: €19.99
 * COGS/User/Month: €1.35
-* Gross Margin: ~93%
+* Gross Margin: ~90-93%
 * Value proposition:
 
 Personalized AI coaching and behavior-change support.
