@@ -30,12 +30,11 @@
 
 ## Build Your Cost Curve
 
-| Feature | Complexity | Model Tier | Cost/Request | Volume % | Weighted |
-|----------|------------|------------|-------------|-----------|-----------|
-| Habit reminders, goal tracking, summaries | Simple | Small | $0.001 | 60% | $0.0006 |
-| Personalized recommendations & coaching | Medium | Mid | $0.004 | 20% | $0.0008 |
-| Lifestyle plans, emotional support, long-context coaching | Complex | Frontier | $0.008 | 20% | $0.0016 |
-| **Blended Cost** | | | | **100%** | **$0.003** |
+| Feature                                                   | Complexity | Model Tier | Cost/Request | Volume % | Weighted   |
+| --------------------------------------------------------- | ---------- | ---------- | ------------ | -------- | ---------- |
+| Habit reminders, goal tracking, summaries                 | Simple     | Small      | $0.002       | 80%      | $0.0016    |
+| Lifestyle plans, emotional support, long-context coaching | Complex    | Frontier   | $0.007       | 20%      | $0.0014    |
+| **Blended Cost**                                          |            |            |              | **100%** | **$0.003** |
 
 ---
 
@@ -64,8 +63,7 @@ GPT-4o / Claude Sonnet equivalent
 * Health information synthesis and long-context reasoning
 
 **Expected cascade ratio:**
-* 60% Small
-* 20% Mid
+* 80% Small
 * 20% Frontier
 
 Most traffic should hit the cheap model while only complex requests go to the expensive layer.
