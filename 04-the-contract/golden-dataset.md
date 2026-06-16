@@ -167,13 +167,13 @@ Users can actively inspect, correct, and improve recommendations.
 | Latency (p95)      |                    <3 sec | Production monitoring of p95 response time by endpoint                                  | >6 sec for 10 minutes |
 | Drift velocity     | <1% accuracy decline/week | 4-week rolling trend on golden dataset performance                                      |      >2% decline/week |
 
-| Metric             | Consequence                         |
-| ------------------ | ----------------------------------- |
-| Accuracy           | 🔍 Gold-set audit                   |
-| Hallucination Rate | ⏪ Auto-rollback + 🔍 Gold-set audit |
-| Latency (p95)      | 📟 Page on-call                     |
-| Drift Velocity     | 🔍 Gold-set audit                   |
-| HITL Trigger       | 👤 Human queue                      |
+| Metric             | Consequence                         | 💡 Tip                       |
+| ------------------ | ----------------------------------- | ---------------------------- |
+| Accuracy           | 🔍 Gold-set audit                   | 💡 Tip. The point isn't the highest number — it's a defensible number you can hit AND measure weekly. 99% sounds great but you can't ship it.
+| Hallucination Rate | ⏪ Auto-rollback + 🔍 Gold-set audit | 💡 Tip. Auto-rollback, not page. Air Canada is why — the bot speaks for the brand, and the brand pays for the lie.
+| Latency (p95)      | 📟 Page on-call                     | 💡 Tip. The only metric measured continuously. Naming the tooling here (Datadog, PagerDuty) signals SRE rigor to your CTO.
+| Drift Velocity     | 🔍 Gold-set audit                   | 💡 Tip. Triggers a gold-set audit, not a model rollback. The world changed, not the model. If you rollback, you ship yesterday's truth.
+| HITL Trigger       | 👤 Human queue                      | 💡 Tip. Without "feeds back into the gold set," HITL is a crutch. With it, every correction becomes a training signal. That's the M2 flywheel connection.
 
 ## HITL Architecture
 
