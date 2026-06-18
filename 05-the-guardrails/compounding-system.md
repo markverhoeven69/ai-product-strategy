@@ -212,12 +212,50 @@ The system must immediately escalate when:
 
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+### Workarounds Discovered
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+| Workaround                                                           | Signal Source  | Signal Type    | Frequency | Spend ($/month) | Decision |
+| -------------------------------------------------------------------- | -------------- | -------------- | --------- | --------------- | -------- |
+| Users ask ChatGPT for personalized meal plans and exercise schedules | User Interview | Capability Gap | High      | $20             | Build    |
+| Users use ChatGPT as a daily accountability coach                    | Forum/Reddit   | Workflow Gap   | High      | $20             | Build    |
+| Users track nutrition in MyFitnessPal                                | User Interview | Workflow Gap   | High      | $15             | Partner  |
+| Users rely on Fitbit/Garmin insights for health tracking             | API Pattern    | Capability Gap | Medium    | $10             | Partner  |
+| Users maintain habits in Notes or external habit trackers            | Forum/Reddit   | Workflow Gap   | Medium    | $5              | Build    |
+
+### Pattern Assessment
+
+* Workarounds Found: 5
+* Build Candidates: 3
+* Partner Candidates: 2
+* Adjacent Spend: $70/month
+* Dominant Signal: Personalized coaching and accountability
+
+### Action Plan
+
+#### Build
+
+* AI-powered accountability coaching
+* Adaptive habit-building workflows
+* Personalized lifestyle recommendations
+* Progress-based coaching adjustments
+
+#### Partner
+
+* MyFitnessPal integration
+* Fitbit integration
+* Garmin integration
+
+#### Ignore / Monitor
+
+* General-purpose AI tools used for occasional health research
+* Emerging wellness AI applications
+
+## Roadmap Brief
+
+The Shadow AI Audit reveals that users are already building their own lifestyle coaching ecosystem using ChatGPT, MyFitnessPal, Fitbit, Garmin, and habit-tracking tools.
+
+The dominant signal is not nutrition tracking or wearable data, but personalized coaching and accountability. Users repeatedly turn to external AI tools for motivation, goal setting, behavioral guidance, and habit formation.
+
+The product roadmap should prioritize native AI coaching, adaptive habit-building workflows, and personalized recommendations while partnering with established tracking platforms rather than rebuilding them. Integrations with MyFitnessPal and wearable ecosystems can accelerate adoption, while proprietary behavioral intelligence becomes the long-term competitive advantage.
+
+Estimated adjacent spend is approximately $70 per user per month, representing a significant opportunity to consolidate fragmented user workflows into a single trusted experience.
