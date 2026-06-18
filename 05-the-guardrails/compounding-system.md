@@ -1,6 +1,6 @@
 # Compounding System Design
 
-## Feedback Loops
+## 1. Feedback Loops
 
 | Loop                  | Input                                                                                    | Output                                                                   | Compounds? | Status |
 | --------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------- | ------ |
@@ -8,7 +8,25 @@
 | Cross-Domain Transfer | Behavioral insights from exercise, nutrition, sleep and stress coaching domains          | Reusable intervention patterns applied across multiple lifestyle domains | Y          | Active |
 | Network Intelligence  | Aggregated and anonymized user behavior data across the platform                         | Population-level insights that improve recommendations for future users  | Y          | Broken |
 
-### Broken Loop Identified by Partner
+## 2. Live Diagnostic
+
+### Loops identified
+
+Loops mapped: 3
+
+Loops that actually compound: 2
+
+Active / Broken / Missing: 2 / 1 / 0
+
+System Health: Mixed
+
+### Freeze Test
+
+If the underlying foundation model remained unchanged for three months, the Lifestyle Companion would still improve because user feedback, behavioral outcomes, and coaching effectiveness data continue to generate proprietary insights that improve future recommendations. The long-term moat is not the LLM itself, but the behavioral intelligence built from user interactions.
+
+## 3. Broken Loop
+
+### Identified by Partner
 
 Network Intelligence is not fully operational because successful and unsuccessful intervention outcomes are not yet systematically aggregated across the entire user base.
 
@@ -16,9 +34,7 @@ Network Intelligence is not fully operational because successful and unsuccessfu
 
 Implement a centralized behavioral insights pipeline that captures intervention outcomes, identifies high-performing coaching strategies, and feeds these learnings into the recommendation engine on a monthly basis.
 
----
-
-## Context Connectivity
+## 4. Context Connectivity
 
 ### How does knowledge flow across teams and domains?
 
@@ -33,19 +49,6 @@ Behavioral science research → Content Library → Recommendation Engine → Us
 Individual coaching conversations generate valuable behavioral insights, but these insights are not yet automatically transferred into product improvement workflows.
 
 Support feedback and user objections are reviewed manually and are not consistently incorporated into coaching strategy updates.
-
-### Live Diagnostic
-
-Loops mapped: 3
-
-Loops that actually compound: 2
-
-Active / Broken / Missing: 2 / 1 / 0
-
-
-### Freeze Test
-
-If the underlying foundation model remained unchanged for three months, the Lifestyle Companion would still improve because user feedback, behavioral outcomes, and coaching effectiveness data continue to generate proprietary insights that improve future recommendations. The long-term moat is not the LLM itself, but the behavioral intelligence built from user interactions.
 
 ---
 
