@@ -1,134 +1,97 @@
-# My AI Product Strategy
+# AI Lifestyle Companion
 
-A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS your strategy — version-controlled, board-ready, portable.
-
-| Component      | Module | Status | Key Artifact       |
-| -------------- | ------ | ------ | ------------------ |
-| The Bet        | M1     | ✅      | 01-the-bet/        |
-| The Moat       | M2     | ✅      | 02-the-moat/       |
-| The Margin     | M3     | ✅      | 03-the-margin/     |
-| The Contract   | M4     | ✅      | 04-the-contract/   |
-| The Guardrails | M5     | ✅      | 05-the-guardrails/ |
-| The Pitch      | M6     | ⬜      | 06-the-pitch/      |
+> Busy professionals want an AI-powered lifestyle companion that helps them improve their physical, mental, and emotional wellbeing through personalized daily guidance, because existing health apps provide data but not actionable support.
 
 ---
 
-# The Bet (M1)
+## Strategy at a Glance
 
-**Product:** Verbeter je Leefstijl (AI Lifestyle Companion)
-
-**AI Value Archetype:** Coach & Guide
-
-**Vulnerability Scores:**
-Moat 3/5 · Data 2/5 · Platform 2/5
-
-**Top Risk:** Low user retention after initial onboarding and assessment.
-
-**Confidence:** M
-
-**Prototype:** https://ai-lifestyle-companion.lovable.app
-
-**Kill Criteria:**
-
-* Less than 20% weekly retention after 90 days
-* No measurable behavior change among active users
-* CAC exceeds projected LTV by >2x
-
-→ Details: 01-the-bet/
+| Component | Module | Status | Key Artifact |
+|-----------|--------|--------|-------------|
+| **The Bet** | M1 | [x] | `01-the-bet/` |
+| **The Moat** | M2 | [x] | `02-the-moat/` |
+| **The Margin** | M3 | [x] | `03-the-margin/` |
+| **The Contract** | M4 | [x] | `04-the-contract/` |
+| **The Guardrails** | M5 | [x] | `05-the-guardrails/` |
+| **The Pitch** | M6 | [x] | `06-the-pitch/` |
 
 ---
 
-# The Moat (M2)
+## The Bet (M1)
 
-**Data Flywheel Score:** 13/20
+**What we're building, for whom, why now.**
 
-**Weakest Loop:** Proprietary data accumulation
+- **Product:** AI Lifestyle Companion
+- **AI Value Archetype:** Copilot
+- **Vulnerability Scores:** Moat 3/5 · Data 4/5 · Platform 2/5
+- **Top Risk:** The largest vulnerability is platform encroachment. Major ecosystem players already own health data, wearable integrations, and user attention. If Apple, Google, or OpenAI launch a deeply integrated AI Lifestyle Companion, they could replicate many core features quickly.
+- **Confidence:** _(add: H / M / L)_
+- **Prototype:** https://ai-lifestyle-companion.lovable.app
+- **Kill Criteria:** We will stop pursuing this concept if user testing shows that: - Users do not perceive sufficient value beyond existing health and fitness apps. - Users are unwilling to share lifestyle and wellbeing data with an AI companion.…
 
-**Competitive Position:**
-
-* High personalization
-* High accessibility
-* Medium clinical credibility
-* Medium behavior-change effectiveness
-
-**Encroachment Defense:**
-The combination of behavioral profiling, longitudinal lifestyle data, personalized coaching journeys, and trust-based engagement creates switching costs that generic AI assistants cannot easily replicate.
-
-**Vendor Portability:** Partial
-
-→ Details: 02-the-moat/
+→ Details: [`01-the-bet/`](01-the-bet/)
 
 ---
 
-# The Margin (M3)
+## The Moat (M2)
 
-**Gross Margin (current):** ~70%
+**Why this won't get copied in 6 months.**
 
-**Gross Margin (AI-adjusted):** ~55–60%
+- **Data Flywheel Score:**
+- **Weakest Loop:**
+- **Top Encroachment Threat:** OpenAI
+- **Encroachment Defense:** Build a coach-and-provider ecosystem where aggregated outcomes improve intervention quality across users, coaches, and healthcare partners.…
+- **Vendor Portability:** ### Partial
 
-**Pricing Model:** Freemium → Subscription
-
-**Cascading Strategy:**
-
-* Free lifestyle assessment
-* Premium coaching subscription
-* Partner referrals
-* Employer / healthcare partnerships
-
-**Break-even at:** ~1,500–2,000 paying users
-
-→ Details: 03-the-margin/
+→ Details: [`02-the-moat/`](02-the-moat/)
 
 ---
 
-# The Contract (M4)
+## The Margin (M3)
 
-**Reliability Target:** 95% safe and appropriate recommendations
+**Will this make money or bleed it?**
 
-**Golden Dataset:** 1,000+ lifestyle interactions, 100+ adversarial scenarios
+- **Gross Margin (current):**
+- **Gross Margin (AI-adjusted):**
+- **Pricing Model:**
+- **Pricing Today → Tomorrow:**
+- **Total AI COGS / unit:**
+- **Cascading Strategy:** Triage: GPT-4.1 Mini / Claude Haiku equivalent; frontier: GPT-4o / Claude Sonnet equivalent; ratio * 80% Small
+- **Net Margin Shift:** * Revenue increase: +100%
+- **Break-even at:**
 
-**Confidence UX:** Explain recommendations, communicate uncertainty, provide human escalation paths
-
-**HITL Architecture:**
-AI provides guidance and coaching. Clinical or high-risk recommendations escalate to human professionals.
-
-**Failure Mode Coverage:**
-
-* Hallucinated advice
-* Unsafe health recommendations
-* Incorrect risk classification
-* Prompt injection
-* Emotional dependency
-
-→ Details: 04-the-contract/
+→ Details: [`03-the-margin/`](03-the-margin/)
 
 ---
 
-# The Guardrails (M5)
+## The Contract (M4)
 
-**Compounding System:**
-User interactions → better profiling → more personalized coaching → improved outcomes → increased engagement → richer behavioral data.
+**Why users will trust a probabilistic system.**
 
-**Governance Posture:**
-Human-centered AI with transparency, explainability, and privacy-by-design.
+- **Reliability Target:** ≥85%
+- **Golden Dataset:**
+- **Confidence UX:** ### Approach
+- **HITL Architecture:** ### Human Review Trigger
+- **Failure Mode Coverage:** ### Failure mode identified by partner
 
-**Shadow AI Status:** 0 tools found, 0 triaged
+→ Details: [`04-the-contract/`](04-the-contract/)
 
-**Agent Boundaries:**
+---
 
-* No diagnosis
-* No treatment decisions
-* No emergency intervention
-* Escalate high-risk situations
+## The Guardrails (M5)
 
-**Regulatory Exposure:**
-Medium
+**What breaks when this scales — and what compounds.**
 
-* GDPR
-* EU AI Act
-* Potential healthcare compliance requirements if moving toward clinical use
+- **Compounding System:**
+- **Governance Posture:**
+- **Autonomy Boundaries:**
+- **Escalation Triggers:**
+- **Audit Cadence:**
+- **Shadow AI Audit (user-side):**
+- **Agent Boundaries:** ### Coaching Agent
+- **Regulatory Exposure:**
 
-→ Details: 05-the-guardrails/
+→ Details: [`05-the-guardrails/`](05-the-guardrails/)
 
 ---
 
@@ -139,7 +102,8 @@ Medium
 - **Horizon 1 (Now):**
 - **Horizon 2 (Next):**
 - **Horizon 3 (Bet):**
-- **Board Narrative:** [1-sentence thesis]
-- **Key Metric:**
+- **Board Narrative:** **The case:**
+- **Ask:** ## M1 Baseline vs. Now
+- **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
